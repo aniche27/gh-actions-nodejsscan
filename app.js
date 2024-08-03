@@ -46,6 +46,7 @@ app.use(helmet({
 //  }));
 
 app.use('/', index);
+
 app.use('/users', users);
 app.use('/projects', projects);
 app.use('/expenses', expenses);
